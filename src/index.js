@@ -14,7 +14,6 @@ import { Provider } from 'react-redux';
 import { PersistGate } from 'redux-persist/integration/react';
 import { Toaster } from 'react-hot-toast';
 import { App } from 'components/App';
-// import { theme } from './constants';
 import { persistor } from 'redux/store';
 import { handleErrors } from 'api/helpers';
 import './index.css';
